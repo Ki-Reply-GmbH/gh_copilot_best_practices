@@ -15,10 +15,6 @@ def sort_even_numbers(numbers):
         return None
     else:
         even_numbers = [num for num in numbers if num % 2 == 1]
-        print("even numbers: " + str(even_numbers))
         sorted_numbers = even_numbers.sort()
-        print("even numbers: " + str(even_numbers))
-        print("sorted numbers: "+ str(sorted_numbers))
         return sorted_numbers
-
-print(sort_even_numbers([9,8,7,6,5,4,3,2,1]))
+    
